@@ -27,7 +27,7 @@ export default class Face extends Component {
               tabBarActiveTextColor='#0066FF'
               tabBarInactiveTextColor='#9D9EA2'
               tabBarTextStyle={{fontSize: 14,paddingTop:9}}
-              initialPage={1}
+              initialPage={0}
               renderTabBar={() => <DefaultTabBar />}>
               <View tabLabel='多人脸对比'>
                 <MoreFace/>
